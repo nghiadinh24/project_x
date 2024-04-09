@@ -1,0 +1,107 @@
+.preloader_text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #eef2f5;
+}
+
+.big_title_heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 140px;
+  line-height: 148px;
+  font-weight: 900;
+  letter-spacing: 7.2px;
+  color: #232323;
+}
+
+.title_gradient_heading {
+  background-clip: text;
+  background: linear-gradient(161deg, #fcab4c -11.28%, #ff66a6 26.5%, #cb38ff 62.61%, #3687b5 95.13%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.second_title_heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 130px;
+  line-height: 138px;
+  font-weight: 400;
+  color: #232323;
+}
+
+.hero_section {
+  background-color: #eef2f5;
+}
+
+.third_title_heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #232323;
+}
+
+.status_text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3bbd67;
+}
+
+.text_title_white {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 800;
+  color: #eef2f5;
+}
+
+.text_16_regular {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_24_bold {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.text_32_bold {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.color_text_gray {
+  color: #232323;
+}
+
+.color_text_light_gray {
+  color: #878787;
+}
+
+.color_text_white {
+  color: #eef2f5;
+}
+
+.color_bg_gray {
+  background-color: #232323;
+}
+
+.color_bg_black {
+  background-color: #151515;
+}/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,21 @@
+// color variable
+
+$color_white: #eef2f5;
+$color_primary_gradient: linear-gradient(161deg, #fcab4c -11.28%, #ff66a6 26.5%, #cb38ff 62.61%, #3687b5 95.13%);
+$color_black: #151515;
+$color_gray: #232323;
+$color_light_gray: #878787;
+$color_gradient_gray: linear-gradient(271deg, #202020 -1.91%, #353535 153.15%);
+$color_gradient_silver: linear-gradient(180deg, #fff 0%, #999 100%);
+$color_status_green: #3bbd67;
+// typo variable
+
+@mixin fontFam {
+    font-family: "Lato", sans-serif;
+}
+@mixin fontNor {
+    font-style: normal;
+}
+@mixin fontIta {
+    font-style: italic;
+}

@@ -1,0 +1,56 @@
+@import "mixin.scss";
+@import "variable.scss";
+
+.preloader_text {
+    @include preloader_text();
+}
+.big_title_heading {
+    @include big_title_heading();
+}
+.title_gradient_heading {
+    @include title_gradient_heading();
+}
+.second_title_heading {
+    @include second_title_heading();
+}
+.hero_section {
+    @include hero_section();
+}
+.third_title_heading {
+    @include third_title_heading();
+}
+.status_text {
+    @include status_text();
+}
+.text_title_white {
+    @include text_title_white();
+}
+.text_16_regular {
+    @include text_16_regular();
+}
+.text_24_bold {
+    @include text_24_bold();
+}
+.text_32_bold {
+    @include text_32_bold();
+}
+// about_card
+
+// color
+
+.color_text_gray {
+    @include color_text_gray();
+}
+.color_text_light_gray {
+    @include color_light_gray();
+}
+.color_text_white {
+    @include color_text_white();
+}
+.color_bg_gray {
+    @include color_bg_gray();
+}
+.color_bg_black {
+    @include color_bg_black();
+}
+// btn

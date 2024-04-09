@@ -1,0 +1,104 @@
+@import "variable.scss";
+
+// typo
+@mixin big_title_heading {
+    @include fontFam();
+    @include fontNor();
+    font-size: 140px;
+    line-height: 148px;
+    font-weight: 900;
+    letter-spacing: 7.2px;
+    color: $color_gray;
+}
+@mixin title_gradient_heading {
+    background-clip: text;
+    background: $color_primary_gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin second_title_heading {
+    @include fontFam();
+    @include fontNor();
+    font-size: 130px;
+    line-height: 138px;
+    font-weight: 400;
+    color: $color_gray;
+}
+@mixin third_title_heading {
+    @include fontFam();
+    @include fontNor();
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $color_gray;
+}
+@mixin status_text {
+    @include fontFam();
+    @include fontNor();
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $color_status_green;
+}
+@mixin preloader_text {
+    @include fontFam();
+    @include fontNor();
+    font-size: 32px;
+    line-height: 40px;
+    color: $color_white;
+}
+@mixin text_title_white {
+    @include fontFam();
+    @include fontNor();
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 800;
+    color: $color_white;
+}
+@mixin text_32_bold {
+    @include fontFam();
+    @include fontNor();
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+@mixin text_24_bold {
+    @include fontFam();
+    @include fontNor();
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+@mixin text_16_regular {
+    @include fontFam();
+    @include fontNor();
+    font-size: 16px;
+    line-height: 24px;
+}
+
+// color mixin
+
+@mixin color_text_gray {
+    color: $color_gray;
+}
+@mixin color_text_white {
+    color: $color_white;
+}
+@mixin color_light_gray {
+    color: $color_light_gray;
+}
+@mixin color_bg_gray {
+    background-color: $color_gray;
+}
+@mixin color_bg_black {
+    background-color: $color_black;
+}
+
+// about card
+
+// button
+
+// hero_section
+@mixin hero_section {
+    background-color: $color_white;
+}
