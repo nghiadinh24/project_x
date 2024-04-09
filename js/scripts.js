@@ -177,23 +177,6 @@ tl_preloader.to("body", {
     // end horizontal_scroll
 
     // scroll to big thumbnail 
-
-    const bigger_thumb = gsap.to(".works_thumbnail",{
-      scale: 0,
-      opacity: 1,
-      duration: 1,
-      ease:"power3.out",
-    })
-    ScrollTrigger.create({
-      trigger: ".works_title",
-      start: "20% 20%",
-      end: "bottom bottom",
-      markers: true,
-      scrub: 1,
-      containerAnimation: bigger_thumb,
-    })
-
-
     // lenis
 
     const lenis = new Lenis()
