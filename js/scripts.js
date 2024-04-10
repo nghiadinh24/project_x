@@ -108,6 +108,38 @@ tl_preloader.to("body", {
         markers: false,
     })
 
+    // text_section
+
+    const splitTypes = document.querySelectorAll('.reveal-type')
+
+        splitTypes.forEach((char,i) => {
+
+            const bg = char.dataset.bgColor
+            const fg = char.dataset.fgColor
+
+            const text = new SplitType(char, { types: 'chars'})
+
+            gsap.fromTo(text.chars, 
+                {
+                    color: bg,
+                },
+                {
+                    color: fg,
+                    duration: 0.3,
+                    stagger: 0.02,
+                    scrollTrigger: {
+                        trigger: char,
+                        start: 'top 80%',
+                        end: 'top 20%',
+                        scrub: true,
+                        pin:".new_ab_section"
+                        markers: true,
+                        toggleActions: 'play play reverse reverse'
+                    }
+            })
+        })
+
+
     // about_section
 
     // about_title 
@@ -146,37 +178,7 @@ tl_preloader.to("body", {
         markers: false,
     })
 
-    // work_section
 
-    // horizontal scroll
-    const works_row = document.querySelector(".works_row"); 
-    console.log(works_row.offsetWidth)
-    
-    function getScrollAmount() {
-      let works_rowWidth = works_row.scrollWidth;
-      return -(works_rowWidth - window.innerWidth);
-    }
-    
-    const tween = gsap.to(works_row, {
-      x: getScrollAmount,
-      duration: 3,
-      ease: "none",
-    });
-    
-    
-    ScrollTrigger.create({
-      trigger:".works_section",
-      start:"20% 20%",
-      end: () => `+=${getScrollAmount() * -1}`,
-      pin:true,
-      animation:tween,
-      scrub:1,
-      invalidateOnRefresh:true,
-      markers:false,
-    })
-    // end horizontal_scroll
-
-    // scroll to big thumbnail 
     // lenis
 
     const lenis = new Lenis()

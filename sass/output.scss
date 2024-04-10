@@ -31,8 +31,17 @@
 .text_24_bold {
     @include text_24_bold();
 }
+.text_24_regular {
+    @include text_24_regular();
+}
 .text_32_bold {
     @include text_32_bold();
+}
+.text_32_regular {
+    @include text_32_regular();
+}
+.text_42_regular {
+    @include text_42_regular();
 }
 // about_card
 
@@ -52,5 +61,8 @@
 }
 .color_bg_black {
     @include color_bg_black();
+}
+.color_bg_white {
+    @include color_bg_white();
 }
 // btn

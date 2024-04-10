@@ -55,6 +55,13 @@
     font-weight: 800;
     color: $color_white;
 }
+@mixin text_42_regular {
+    @include fontFam();
+    @include fontNor();
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: 400;
+}
 @mixin text_32_bold {
     @include fontFam();
     @include fontNor();
@@ -62,12 +69,20 @@
     line-height: 40px;
     font-weight: 700;
 }
+@mixin text_32_regular {
+    @include text_32_bold();
+    font-weight: 400;
+}
 @mixin text_24_bold {
     @include fontFam();
     @include fontNor();
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
+}
+@mixin text_24_regular {
+    @include text_24_bold();
+    font-weight: 400;
 }
 @mixin text_16_regular {
     @include fontFam();
@@ -92,6 +107,9 @@
 }
 @mixin color_bg_black {
     background-color: $color_black;
+}
+@mixin color_bg_white {
+    background-color: $color_white;
 }
 
 // about card

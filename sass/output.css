@@ -1,5 +1,5 @@
 .preloader_text {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 40px;
@@ -7,7 +7,7 @@
 }
 
 .big_title_heading {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 140px;
   line-height: 148px;
@@ -24,7 +24,7 @@
 }
 
 .second_title_heading {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 130px;
   line-height: 138px;
@@ -37,7 +37,7 @@
 }
 
 .third_title_heading {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -46,7 +46,7 @@
 }
 
 .status_text {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -55,7 +55,7 @@
 }
 
 .text_title_white {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 64px;
   line-height: 72px;
@@ -64,26 +64,52 @@
 }
 
 .text_16_regular {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
 }
 
 .text_24_bold {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
 }
 
+.text_24_regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-weight: 400;
+}
+
 .text_32_bold {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 40px;
   font-weight: 700;
+}
+
+.text_32_regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  font-weight: 400;
+}
+
+.text_42_regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 64px;
+  font-weight: 400;
 }
 
 .color_text_gray {
@@ -104,4 +130,8 @@
 
 .color_bg_black {
   background-color: #151515;
+}
+
+.color_bg_white {
+  background-color: #eef2f5;
 }/*# sourceMappingURL=output.css.map */

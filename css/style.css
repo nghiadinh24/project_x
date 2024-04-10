@@ -7,6 +7,7 @@
    }
 body {
     overflow-x: hidden;
+    background-color: #232323;
 }
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -307,6 +308,30 @@ ol, ul {
 }
 
 /* about_section */
+.css-selector {
+    background: linear-gradient(270deg, #000000, #363636);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 .about_section {
     height: 100vh;
     display: flex;
@@ -378,7 +403,160 @@ ol, ul {
 }
 /* end about_section */
 
+/* new_ab_section */
+
+.new_ab_section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new_ab_container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.new_ab_content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.ab_content_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.ab_title {
+    text-align: center;
+}
+.ab_card_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.ab_card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ab_card_li {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.ab_card_line {
+    width: 2px;
+    height: 100%;
+    background: #363636;
+}
+.new_ab_line {
+    width: 100%; /* Độ dài của đường */
+    height: 2px; /* Độ rộng của đường */
+    background: linear-gradient(to right, #FCAB4C -8.02%, #FF66A6 8.94%, #CB38FF 27.22%, #3687B5 44.18%); /* Màu gradient */
+    animation: gradient-animation 3s ease infinite;
+    background-size: 180% 180%;
+}
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* end new_ab_section */
+
+/* work slide section */
+.work_slide_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.work_slide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    margin: 0 auto;
+}
+.work_slide_1 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.work_slide_2 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.gallery {
+    height: 200vh;
+}
+.work_slide_title { 
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    color: white;
+}
+.img {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    z-index: -1;
+
+    &:nth-of-type(1) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(2) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(3) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(4) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(5) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(6) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(7) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(8) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+    &:nth-of-type(9) {background-image: url('https://assets.codepen.io/2621168/img1.jpg');}
+
+
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        z-index: 4;
+        top: 0;
+        left: 0;
+    }
+}
+
+.line {
+    border-right: 1px solid #363636;
+}
+
+/* end work slide */
+
 /* work_section */
+
 
 .works_section {
     height: 100vh;
