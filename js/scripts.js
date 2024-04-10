@@ -129,10 +129,10 @@ tl_preloader.to("body", {
                     stagger: 0.02,
                     scrollTrigger: {
                         trigger: char,
-                        start: 'top 80%',
-                        end: 'top 20%',
+                        start: 'top 30%',
+                        end: 'bottom 20%',
                         scrub: true,
-                        pin:".new_ab_section"
+                        pin:".new_ab_section",
                         markers: true,
                         toggleActions: 'play play reverse reverse'
                     }
@@ -200,3 +200,4 @@ gsap.ticker.lagSmoothing(0)
 
 // nav js
 
+  
