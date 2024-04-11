@@ -487,6 +487,9 @@ ol, ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .works_card_content {
