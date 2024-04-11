@@ -55,6 +55,13 @@
     font-weight: 800;
     color: $color_white;
 }
+@mixin text_64_md {
+    @include fontFam;
+    @include fontNor;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 500;
+}
 @mixin text_42_regular {
     @include fontFam();
     @include fontNor();
@@ -79,6 +86,13 @@
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
+}
+@mixin text_24_md {
+    @include fontFam();
+    @include fontNor();
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
 }
 @mixin text_24_regular {
     @include text_24_bold();

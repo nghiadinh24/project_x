@@ -31,6 +31,9 @@
 .text_24_bold {
     @include text_24_bold();
 }
+.text_24_md {
+    @include text_24_md();
+}
 .text_24_regular {
     @include text_24_regular();
 }
@@ -42,6 +45,9 @@
 }
 .text_42_regular {
     @include text_42_regular();
+}
+.text_64_md {
+    @include text_64_md();
 }
 // about_card
 

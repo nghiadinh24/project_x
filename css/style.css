@@ -391,7 +391,7 @@ ol, ul {
 .new_ab_container {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 84px;
 }
 .new_ab_content {
     display: flex;
@@ -438,8 +438,9 @@ ol, ul {
     background: #363636;
 }
 .new_ab_line {
-    width: 100%; /* Độ dài của đường */
-    height: 2px; /* Độ rộng của đường */
+    width: 0; 
+    height: 3px; 
+    margin-left: 50%;
     background: linear-gradient(to right, #FCAB4C -8.02%, #FF66A6 8.94%, #CB38FF 27.22%, #3687B5 44.18%); /* Màu gradient */
     animation: gradient-animation 3s ease infinite;
     background-size: 180% 180%;
@@ -463,7 +464,37 @@ ol, ul {
 
 .works_section {
     height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+.works_container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.works_card_wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+}
+.works_card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.works_card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 
 /* contact_section */
 

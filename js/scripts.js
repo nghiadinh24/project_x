@@ -133,13 +133,26 @@ tl_preloader.to("body", {
                         end: 'bottom 20%',
                         scrub: true,
                         pin:".new_ab_section",
-                        markers: true,
+                        markers: false,
                         toggleActions: 'play play reverse reverse'
                     }
             })
         })
 
-
+        const new_ab_line = gsap.to(".new_ab_line", {
+          duration: 1,
+          width: '100%',
+          marginLeft:0,
+          ease: "power3.out",
+        })
+        ScrollTrigger.create({
+          trigger: ".new_ab_section",
+          start: "top 30%",
+          end: "bottom 20%",
+          markers: true,
+          scrub: 1,
+          animation: new_ab_line,
+        })
     // about_section
 
     // about_title 
